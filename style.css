@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:ghostwhite;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    font-weight: bold; 
+    font-size:120%
+}
+nav{
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    color: white;
+    font-weight: bold; 
+    font-size:120%;
+    text-decoration:none;
+}
+p a{
+    color: white;
+    font-weight: bold; 
+    font-size:120%;
+    text-decoration:none;
+}
+li a:link{
+    color: white;
+}
+p a:link{
+    color: white;
+}
+li a:hover {
+    color:aqua;
+  }
+  p a:hover {
+    color:aqua;
+  }
+  
+nav div{
+    margin: 0px 55px 0px 55px;
+}
+.n2 ul{
+    list-style-type: none;   
+    display: flex;
+}
+li{
+    margin-left: 25px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+  .section1{
+    display: flex;
+    justify-content: center;
+  }
+  .s1{
+    border-radius: 5px;
+    width:50%;
+    background-color: white; 
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .t1{
+    width: 100%;
+  }
+  .title1{
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+td table{
+    margin-top: 15px;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+  }
+  .s2{
+    border-radius: 5px;
+    width:50%;
+    background-color: white; 
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .title2{
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  input{
+    width:100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
